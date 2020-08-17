@@ -1,0 +1,20 @@
+{
+    "name": "alistairjackman/wiq-backend-developer-test",
+    "description": "wi-Q Backend Developer Test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alistair Jackman",
+            "email": "alistairjackman@hotmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "^7.3",
+        "ext-json": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "WiQApp\\": "src/"
+        }
+    }
+}
